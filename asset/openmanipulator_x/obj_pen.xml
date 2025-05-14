@@ -1,0 +1,16 @@
+<mujoco model="obj_pen">
+    <asset>
+        <mesh name="pen" file="touch_pen.stl" scale="0.001 0.00044444 0.00105936"/>
+    </asset>
+
+    <worldbody>
+        <body name="obj_pen" pos="0.5 0 0.3" euler="0 0 0">
+            <joint type="free" />
+            <body pos="0 0 0" euler="0 0.0 0">
+                <geom type="mesh" pos="0 0 0" euler="3.14159 0 0" mesh="pen"/>
+                <geom type="box" pos="0 0 -0.116" size="0.001 0.001 0.001" rgba="1 0 0 1"/>
+                <inertial pos="0 0 0" mass="0.3" diaginertia="0.1 0.1 0.1" />
+            </body>
+        </body>
+    </worldbody>
+</mujoco>

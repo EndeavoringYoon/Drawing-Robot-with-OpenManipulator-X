@@ -1,0 +1,6 @@
+Mon Apr 14 21:42:14 2025
+ERROR: gladLoadGL error
+
+Tue May  6 21:00:15 2025
+WARNING: Nan, Inf or huge value in QACC at DOF 2. The simulation is unstable. Time = 13.4920.
+

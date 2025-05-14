@@ -1,0 +1,14 @@
+<mujoco model="obj_board">
+    <asset>
+        <texture name="drawing_tex" type="2d" file="./assets/drawing_board_template.png"/>
+        <material name="drawing_mat" texture="drawing_tex" texrepeat="0 0"/>
+        <mesh name="board_mesh" file="./assets/board.obj" inertia="shell"/>
+    </asset>
+    <worldbody>
+        <body name="obj_board" pos="0.3 0 0.0025" euler="0 0 0">
+            <geom name="obj_board_geom" type="mesh" mesh="board_mesh" pos="0 0.0 0.0025" material="drawing_mat"/>
+
+            <inertial pos="0 0 0" mass="1" diaginertia="0.1 0.1 0.1" />
+        </body>
+    </worldbody>
+</mujoco>

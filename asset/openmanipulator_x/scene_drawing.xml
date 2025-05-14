@@ -1,0 +1,6 @@
+<mujoco model="openmanipulator_x scene">
+
+  <include file="./omx_drawing.xml"/>
+  <include file="../floor/floor_isaac_style.xml"/>
+  <include file="./obj_board.xml"/>
+</mujoco>
