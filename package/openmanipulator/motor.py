@@ -108,6 +108,13 @@ class XM430():
             mac_devices = glob.glob("/dev/tty.usbserial-*")
             if mac_devices:
                 return mac_devices[0]  # Use the first available macOS USB serial device
+        elif system == "Windows":
+            import serial.tools.list_ports
+            # Check for Windows COM ports
+            ports = serial.tools.list_ports.comports()
+            com_ports = [port.device for port in ports]
+            if com_ports:
+                return com_ports[0]  # Use the first available COM port
 
         # If no devices are found, raise an error
         raise RuntimeError("No suitable device found for motor controller.")
