@@ -8,6 +8,10 @@ However, since this asset does not include an explicit license or copyright noti
 
 Download (or create) your pen asset and save it in the [openmanipulator_x asset directory](./asset/openmanipulator_x/) as `touch_pen.stl`.
 
+## How to add your new manipulator
+1. add assets/mjcf files in asset folder
+2. add {robot_name}.py in package/robot_launcher/id_maps/ and add {robot_name}.py in __init__.py by following rules inside(in same folder)
+
 ## Requirements
 ```
 cvxpy==1.6.2
