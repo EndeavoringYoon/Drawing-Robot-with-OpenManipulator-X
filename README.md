@@ -86,4 +86,4 @@ This notebook allows you to draw images in both simulation and real-world enviro
 
 * The robot asset for the ROBOTIS OpenManipulator-X is from [robotis_open_manipulator](https://github.com/ROBOTIS-GIT/open_manipulator/tree/main/open_manipulator_description/urdf/om_x)
 * The [mujoco_helper](./package/mujoco_helper), [kinematics_helper](./package/kinematics_helper/), [utility](./package/utility/) is adapted and modified from [yet-another-mujoco-tutorial](https://github.com/sjchoi86/yet-another-mujoco-tutorial-v3)
-* The [openmanipulator](./package/openmanipulator) package is based on [DynamixelSDK](https://github.com/ROBOTIS-GIT/DynamixelSDK)
+* The [robot_launcher](./package/robot_launcher) package is based on [DynamixelSDK](https://github.com/ROBOTIS-GIT/DynamixelSDK)
