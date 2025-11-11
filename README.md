@@ -82,10 +82,6 @@ This notebook allows you to draw images in both simulation and real-world enviro
   </tr>
 </table>
 
-## Todo
-* Update constant-velocity trajectory planning pipeline
-
-
 ## Acknowledgements
 
 * The robot asset for the ROBOTIS OpenManipulator-X is from [robotis_open_manipulator](https://github.com/ROBOTIS-GIT/open_manipulator/tree/main/open_manipulator_description/urdf/om_x)
